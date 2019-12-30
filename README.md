@@ -59,7 +59,11 @@ Desta forma o servidor estará funcionando e disponível para acesso no link: ht
 
 Basta enviar o payload via POST para o endpoit: 
 
-- http://127.0.0.1:5000/api/v1/lecture_manager/
+- http://127.0.0.1:5000/api/v1/lecture_manager
+
+Para testar a aplicação sem a necessidade de instalação, utilize o postman ou insomnia para fazer a requisição neste endpoint:
+
+- https://lecture-manager.herokuapp.com/api/v1/lecture_manager
 
 ### Exemplo de Payload:
 ```json
