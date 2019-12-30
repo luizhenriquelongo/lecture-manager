@@ -59,7 +59,7 @@ def generate_tracks(data):
         TRACK_DURATION = 0
         lectures = {"title": f"Track {track_number+1}", "data": []}
 
-        start = '9:00AM'
+        start = '09:00AM'
         for key in sorted(data.keys(), reverse=True):
             while key <= BEFORE_LUNCH:
                 if len(data.get(key)) == 0:
@@ -74,7 +74,7 @@ def generate_tracks(data):
 
         lectures['data'].append('12:00PM Lunch')
 
-        start = '1:00PM'
+        start = '01:00PM'
         result = 0
         for key in sorted(data.keys(), reverse=True):
             while key <= AFTER_LUNCH:
