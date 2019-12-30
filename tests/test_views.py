@@ -5,6 +5,7 @@ import json
 
 sys.path.append('../')
 
+# local import
 from app import lecture_manager
 
 def test_no_body_request():

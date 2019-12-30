@@ -4,6 +4,7 @@ import re
 from datetime import datetime, time, timedelta
 sys.path.append('../')
 
+# local import
 from controller import lectures_ordered_by_duration, total_minutes, start_time, create_dict, generate_tracks
 
 

@@ -23,6 +23,7 @@ def lecture_manager():
 
     if type(data.get('data')) is not list:
         return make_response(jsonify({"error": "Data set must by an array"}), 400)
+
     try:
         response = generate_tracks(data['data'])
     except NotEnoughLecturesError:
@@ -31,8 +32,10 @@ def lecture_manager():
     except Exception:
         response = {'error': 'payload is not in a correct format'}
         status_code = 400
+
     else:
         status_code = 200
+
     finally:
         return make_response(jsonify(response), status_code)
 

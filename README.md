@@ -1,19 +1,4 @@
 # Gerenciamento de Palestras
-Sua empresa está organizando um grande evento de programação, e recebeu muitas propostas de palestras para serem apresentadas. O problema é fazer todas elas encaixarem no tempo -- tem muitas possibilidades! Então você decidiu escrever um programa pra fazer isso pra você.
-
-Será um único dia de conferência, mas ocorrerão muitas trilhas simultaneamente. Cada trilha tem uma sessão de manhã e outra de tarde. Cada sessão pode conter muitas palestras.
-
-As sessões da manhã devem começar às 9 horas da manhã e terminar a tempo do almoço, que será servido às 12 (meio dia).
-
-As sessões da tarde devem começar à 1 da tarde e terminar a tempo do happy hour.
-
-O happy hour não pode começar antes das 4 da tarde, nem depois das 5 da tarde. O horário do happy hour deve ser o mesmo para todas as trilhas.
-
-Seu programa pode considerar que não haverá uma palestra com números no nome. 
-
-A duração das palestras será dado em minutos ou com a string "lightning" indicando que ela durará 5 minutos.
-
-Os palestrantes serão muito pontuais, você não precisa colocar um intervalo entre uma palestra e outra.
 
 ## Tecnologias Utilizadas:
 - Python 3.6.9
