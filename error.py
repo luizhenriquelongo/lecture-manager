@@ -1,0 +1,2 @@
+class NotEnoughLecturesError(Exception):
+    pass
